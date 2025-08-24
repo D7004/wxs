@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Wonderlands X Showtime</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/logo.png" alt="Logotipo dos Wonderlands X Showtime" title="Logotipo dos Wonderlands X Showtime" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Jogar</a></li>
+            </ul>     
+            <div id="accessibility" class="accessibility-menu">
+                <button id="accessibility-butt" class="btn btn-primary fw-bold rotation-butt">Acessibilidade</button>
+                <div id="accessibility-options" class="accessibility-options show-list">
+                    <button id="bigger_font" class="btn btn-primary fw-bold">A+</button>
+                    <button id="smaller_font" class="btn btn-primary fw-bold">A-</button>
+                    <button id="contrasting" class="btn btn-primary fw-bold"> <i class="bi bi-shadows"></i></button>
+                </div>
+            </div>     
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 fst-italic fw-bold">Wonderhoy! Aí vem os</h1>
+                    <img src="img/logo.png" alt="Logotipo dos Wonderlands X Showtime" title="Logotipo dos Wonderlands X Showtime" class="mb-3" 
+                        height="208" loading="lazy">
+                    <a href="#wxs"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Saiba mais!</a>
+                </div>
+                <img src="img/Wxs_Group.webp" class="img-fluid" width="480" title="Membros do Wonderlands X Showtime" alt="Os membros do Wonderlands X Showtime. Hatsune Miku, uma garota com cabelo azul e orelhas de gato, Robo Nene, uma robo de cabelo verde cinza, Nene, uma garota com detalhes semelhantes ao robo, Rui, um garoto de cabelo roxo, Emu, uma garota de cabelo rosa, e Tsukasa, um garoto de cabelo laranja.">
+            </div>
+        </section>
+
+        <section id="wxs" class="my-5 pt-6 secao-tropicalia">
+            <div class="container d-flex align-items-center ">
+                  <div class="col-5">
+                    <h2>Quem são os Wonderlands X Showtime?</h2>
+                    <p class="p-2">Os Wonderlands X Showtime são um grupo de cantores Japoneses do jogo Hatsune Miku: Colorful Stage. Além de cantarem, eles atuam em apresentações de teatro dentro do universo do jogo. Esse grupo é composto pelos personagens Tsukasa Tenma, Rui Kamishiro, Emu Otori, Nene Kusanagi e Robo Nene, e costumam ser acompanhados por personagens do Vocaloid, como Hatsune Miku e KAITO.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/group_1.png"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/group_2.png"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Jogue Colorful Stage hoje!</h2>
+                    <form>
+                        <div class="d-grid gap-2">
+                            <a href="https://play.google.com/store/apps/details?id=com.sega.ColorfulStage.en&hl=pt_BR" class="btn btn-primary">Google Play</a>
+                            <a href="https://apps.apple.com/br/app/hatsune-miku-colorful-stage/id1580044138" class="btn btn-primary">App Store</a>
+                            <a href="https://www.colorfulstage.com/" class="btn btn-primary">Site oficial</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p class="mt-3">Site produzido por Daniel. Colorful Stage é propriedade de Sega e Colorful Palette. Vocaloid é propriedade da Crypton Future Media.
+            Projeto fictício sem fins comerciais. Feito de acordo com as lições do Alura.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
