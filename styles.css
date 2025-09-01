@@ -182,4 +182,42 @@ h2 {
     background-color: var(--contrast-bg);
     color: var(--contrast-txt);
 }
-\\4:55 <---------
+
+.contrasting header,
+.contrasting header,
+.contrasting .formulario{
+    background-color: var(--contrast-bg);
+    color: var(--orange);
+}
+
+.contrasting .nav-link,
+.contrasting .imp_txt {
+    color: var(--orange);
+}
+
+.contrasting .botao-inicio,
+.contrasting .formulario button,
+.contrasting .btn-primary{
+    background-color: var(--orange);
+    color: var(--contrast-bg);
+}
+
+.contrasting #galeria {
+    background-color: var(--contrast-bg);
+}
+
+.contrasting .fundo-galeria {
+    background: none;
+}
+
+.contrasting .inicio-fundo {
+    background-image: url('img/test.webp');
+}
+
+.contrasting #contato {
+    background-image: url('img/test.webp');
+}
+
+.contrasting .display-4 {
+    text-shadow: -5px 5px var(--orange);
+}

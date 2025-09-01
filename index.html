@@ -22,10 +22,10 @@
                 <li class="nav-item"><a class="nav-link" href="#contato">Jogar</a></li>
             </ul>     
             <div id="accessibility" class="accessibility-menu">
-                <button id="accessibility-butt" class="btn btn-primary fw-bold rotation-butt">Acessibilidade</button>
+                <button id="accessibility-butt" class="btn btn-primary fw-bold rotation-butt" aria-expanded="false">Acessibilidade</button>
                 <div id="accessibility-options" class="accessibility-options show-list">
-                    <button id="bigger_font" class="btn btn-primary fw-bold">A+</button>
-                    <button id="smaller_font" class="btn btn-primary fw-bold">A-</button>
+                    <button id="bigger_font" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="smaller_font" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
                     <button id="contrasting" class="btn btn-primary fw-bold"> <i class="bi bi-shadows"></i></button>
                 </div>
             </div>     
@@ -49,17 +49,17 @@
             </div>
         </section>
 
-        <section id="wxs" class="my-5 pt-6 secao-tropicalia">
+        <section id="wxs" class="my-5 pt-6 secao-tropicalia" tabindex="0">
             <div class="container d-flex align-items-center ">
                   <div class="col-5">
-                    <h2>Quem são os Wonderlands X Showtime?</h2>
+                    <h2 class="imp_txt">Quem são os Wonderlands X Showtime?</h2>
                     <p class="p-2">Os Wonderlands X Showtime são um grupo de cantores Japoneses do jogo Hatsune Miku: Colorful Stage. Além de cantarem, eles atuam em apresentações de teatro dentro do universo do jogo. Esse grupo é composto pelos personagens Tsukasa Tenma, Rui Kamishiro, Emu Otori, Nene Kusanagi e Robo Nene, e costumam ser acompanhados por personagens do Vocaloid, como Hatsune Miku e KAITO.</p>
                 </div>
             </div>
         </section>
 
-        <section id="galeria">
-            <h2 class="text-center pt-5">Galeria</h2>
+        <section id="galeria" tabindex="0">
+            <h2 class="text-center pt-5 imp_txt">Galeria</h2>
             <div class="container p-3 mt-3 fundo-galeria ">
 
                 <div class="row justify-content-md-center">
@@ -78,7 +78,7 @@
         <section id="contato">
             <div class="container p-5 d-flex justify-content-center">
                 <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
-                    <h2 class="mb-3">Jogue Colorful Stage hoje!</h2>
+                    <h2 class="mb-3 imp_txt">Jogue Colorful Stage hoje!</h2>
                     <form>
                         <div class="d-grid gap-2">
                             <a href="https://play.google.com/store/apps/details?id=com.sega.ColorfulStage.en&hl=pt_BR" class="btn btn-primary">Google Play</a>
@@ -94,6 +94,7 @@
         <p class="mt-3">Site produzido por Daniel. Colorful Stage é propriedade de Sega e Colorful Palette. Vocaloid é propriedade da Crypton Future Media.
             Projeto fictício sem fins comerciais. Feito de acordo com as lições do Alura.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
     <script src="script.js"></script>
 
 </body>
